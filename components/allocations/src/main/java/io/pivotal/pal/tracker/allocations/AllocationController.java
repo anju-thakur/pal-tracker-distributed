@@ -25,8 +25,6 @@ public class AllocationController {
         this.gateway = gateway;
         this.client = client;
     }
-
-
     @PostMapping
     public ResponseEntity<AllocationInfo> create(@RequestBody AllocationForm form) {
 
